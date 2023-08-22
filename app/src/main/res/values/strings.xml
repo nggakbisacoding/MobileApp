@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Hello Word 2</string>
+    <string name="app_name">Layout</string>
+    <string name="app_name2">Layout2</string>
+    <string name="halo">HALO</string>
+    <string name="name">Name</string>
+    <string name="name1">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="phone1">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="switchs">Switch</string>
+    <string name="bg">Background</string>
 </resources>
