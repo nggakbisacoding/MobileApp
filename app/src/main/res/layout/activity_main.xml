@@ -5,77 +5,154 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background=""
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#c4b5fd">
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/imageView3"
+
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            tools:srcCompat="@tools:sample/backgrounds/scenic"
-            android:contentDescription="@string/bg"/>
+            android:layout_height="40dp"
+            android:text="Formulir Data Diri"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/bg_rounded"
+            android:textStyle="bold"
+            />
+
     </LinearLayout>
 
     <LinearLayout
-        android:padding="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/name" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="@string/name1"
-            android:textColorHint="#757575"
-            tools:ignore="TouchTargetSizeCheck" />
-     </LinearLayout>
-
-     <LinearLayout
-         android:padding="5dp"
-         android:layout_width="match_parent"
-         android:layout_height="50dp"
-         android:orientation="horizontal">
-         <TextView
-             android:layout_height="wrap_content"
-             android:layout_width="wrap_content"
-             android:text="@string/phone" />
-
-         <com.google.android.material.textfield.TextInputEditText
-             android:layout_width="match_parent"
-             android:layout_height="48dp"
-             android:hint="@string/phone1"
-             android:textColorHint="#757575"
-             tools:ignore="TouchTargetSizeCheck" />
-     </LinearLayout>
-
-    <LinearLayout
-        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
-            android:layout_weight="1"
-            android:text="@string/submit"
-            android:textColor="@color/black"
-            style="?android:attr/buttonBarButtonStyle" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_weight="1"
-            android:text="@string/clear"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_marginLeft="10dp"
+            android:text="Name"
+            android:textStyle="bold"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:id="@+id/name"/>
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Phone"
+            android:textStyle="bold"
+
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Address"
+            android:textStyle="bold"
+
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Massage"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/purple_400"
+            android:gravity="top|start"
+            android:hint="Masukkan teks di sini"
+            android:inputType="textMultiLine"
+            android:id="@+id/massage"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/submit"
+            android:layout_marginRight="15dp"
+            android:id="@+id/submit_btn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/cancel"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/cancel_btn"
+            />
+
+    </LinearLayout>
+
 
 </LinearLayout>
