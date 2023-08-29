@@ -4,17 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.example.linearlayout"
+    namespace = "com.example.layout"
     compileSdk = 33
 
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
-        dataBinding = true
     }
 
     defaultConfig {
-        applicationId = "com.example.linearlayout"
-        minSdk = 21
+        applicationId = "com.example.layout"
+        minSdk = 22
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"

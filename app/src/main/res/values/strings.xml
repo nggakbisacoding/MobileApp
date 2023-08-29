@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">LinearLayout</string>
-    <string name="submit">Submit</string>
-    <string name="cancel">Cancel</string>
+    <string name="app_name">MyPhone</string>
+    <string name="phone_name">Sumsang Galaxy</string>
+    <string name="phone_price">$599.99</string>
+    <string name="phone_desc">Versions: SM-S9018, SM-S9018/0S (International); SM-S901U (USA); SM-S901U1 (USA unlocked); SM-S901W (Canada); SM-S901N (Korea); SM-S9010 (China); SM-S901E (Asia/Africa)</string>
+    <string name="memory">256GB | 8GB</string>
+    <string name="camera">50MP, f/1.8, 23nm(wide)</string>
+    <string name="bookmark">Bookmark</string>
 </resources>

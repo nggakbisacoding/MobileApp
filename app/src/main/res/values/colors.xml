@@ -2,8 +2,4 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="teal">#7C3AED</color>
-    <color name="green_500">#84CC16</color>
-    <color name="purple_800">#5B21B6</color>
-    <color name="purple_400">#A78BFA</color>
 </resources>
