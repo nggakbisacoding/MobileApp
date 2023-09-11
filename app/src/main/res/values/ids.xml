@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="guideitop" type="id" />
+    <item name="guideihorizontal0" type="id" />
+    <item name="guideihorizontal1" type="id" />
+    <item name="guideihorizontal2" type="id" />
+    <item name="guideihorizontal3" type="id" />
+</resources>
