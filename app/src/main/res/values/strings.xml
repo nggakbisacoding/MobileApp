@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Login and Register</string>
+    <string name="second_layout">Go To Second Activity</string>
+    <string name="second_text">This is Second Text</string>
+    <string name="terms_condition">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="have_acc">Already Have an Account?</string>
+    <string name="new_member">New Member?</string>
+    <string name="login">Login</string>
+    <string name="regis">Register</string>
+    <string name="email">Email</string>
+    <string name="activated">Your email has been activated</string>
+    <string name="phone_regis">Your phone has been registered</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember Me</string>
+    <string name="number">Phone Number</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="home">Homepage</string>
+    <string name="welcome">Welcome</string>
+</resources>
