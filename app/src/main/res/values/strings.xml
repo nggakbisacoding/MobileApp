@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pesan Tiket Pesawat</string>
+    <array name="tickets">
+        <item>Ekonomi</item>
+        <item>Bisnis</item>
+        <item>First Class</item>
+    </array>
+    <string name="bid">Tanggal Berangkat</string>
+    <string name="hour">Waktu Berangkat</string>
+    <string name="tiket">Pesan Tiket</string>
+    <string name="pesan">Pesan Sekarang</string>
+</resources>
