@@ -3,27 +3,26 @@ package com.viewpager
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import androidx.viewpager2.adapter.FragmentStateAdapter
 
-
-class ViewPagerAdapter(fm: FragmentManager) :
-    FragmentPagerAdapter(fm) {
-    private val fragments: MutableList<Fragment> = ArrayList()
-    private val fragmentTitle: MutableList<String> = ArrayList()
-    fun add(fragment: Fragment, title: String) {
-        fragments.add(fragment)
-        fragmentTitle.add(title)
-    }
+class ViewPagerAdapter (fm: FragmentManager) : FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     override fun getItem(position: Int): Fragment {
-        return fragments[position]
+        return when (position) {
+            0 -> Page1()
+            1 -> Page2()
+            else -> throw IllegalArgumentException("Invalid tab position")
+        }
     }
 
     override fun getCount(): Int {
-        return fragments.size
+        return 2
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
-        return fragmentTitle[position]
+        return when (position) {
+            0 -> "Register"
+            1 -> "Login"
+            else -> null
+        }
     }
 }
